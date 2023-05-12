@@ -15,11 +15,45 @@ pip install -r L2L_MLPrague23/requirements.txt
 
 ### 1. Intro to Transformers
 
+- Architectures
+  - Difference to other arch's (attention layer)
+  - Tasks (=objectives)
+
+- Pre-training & Fine-tuning
+
+- Inputs and outputs
+  - Single token prediction
+
+- Generation
+  - Iterative prediction
+  - Other generation strategies
+  - [Hands-on] Constraining generated output (forcing & disabling)
+
 ### 2. In-context Learning and Few-shot Learning with Transformers
+- Problem definition (usage)
+- Contrast with Supervised ML
+- Zero-shot vs few-shot
+  - Examples
+  - [Hands-on] comparison of zero-shot vs. few-shot performance (of some chosen ICL)
+
+- Existing models
 
 ### 3. Methods for Improving ICL
 
-### 4. Hands-on in Improving Few-shot ICL
+#### Inference
+- Demonstrations heterogeneity
+- Prompt engineering
+  - [Hands-on] prompt engineering
 
+#### Training 
+- Training strategies 
+  - training in explicit fewshot format (QA)
+
+- Practical training pipeline
+  - Adaptor example
+
+
+### 4. Hands-on in Improving Few-shot ICL
+- [Hands-on] Customizing Few-shot ICL to specialized data
 -------
 
