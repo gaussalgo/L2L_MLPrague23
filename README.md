@@ -35,9 +35,7 @@ pip install -r L2L_MLPrague23/requirements.txt
 - Zero-shot vs few-shot
   - Examples
   - [Hands-on] comparison of zero-shot vs. few-shot performance (of some chosen ICL)
-
-- Existing models
-
+  - 
 ### 3. Methods for Improving ICL
 
 #### Inference
@@ -45,15 +43,23 @@ pip install -r L2L_MLPrague23/requirements.txt
 - Prompt engineering
   - [Hands-on] prompt engineering
 
-#### Training 
-- Training strategies 
+#### Training Strategies
+- Training strategies + existing models
   - training in explicit fewshot format (QA)
-
-- Practical training pipeline
-  - Adaptor example
-
+  - Instruction tuning
+  - Chain-of-Thought
+  - Pre-training on a code
+  - Fine-tuning with human feedback
+- Theoretical studies
+  - Data properties fostering ICL
+  - Experiments
+  - Explanation of the reported improvements?
 
 ### 4. Hands-on in Improving Few-shot ICL
 - [Hands-on] Customizing Few-shot ICL to specialized data
+- Practical training pipeline
+  - Overview of the training pipeline
+  - Adaptor example
+
 -------
 
