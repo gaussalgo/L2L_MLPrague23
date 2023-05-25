@@ -52,10 +52,10 @@ pip install -r L2L_MLPrague23/requirements.txt
   - Chain-of-Thought
   - Pre-training on a code
   - Fine-tuning with human feedback
-- Theoretical studies
+#### Theory behind - why does ICL exist?
   - Data properties fostering ICL
   - Experiments
-  - Explanation of the reported improvements?
+  - Explanations of the existing models?
 
 ### 4. Hands-on in Improving Few-shot ICL
 - [Hands-on] Customizing Few-shot ICL to specialized data
