@@ -62,7 +62,7 @@ pip install -r L2L_MLPrague23/requirements.txt
   - Explanations of the existing models?
 
 ### 4. Hands-on in Improving Few-shot ICL
-[![Open in Colab](https://colab.research.google.com/github/gaussalgo/L2L_MLPrague23/blob/main/notebooks/hands_on_improving_ICL.ipynb)
+[![Open in Colab](https://colab.research.google.com/github/gaussalgo/L2L_MLPrague23/blob/main/notebooks/hands_on_improving_ICL.ipynb)]
 
 - [Hands-on] Customizing Few-shot ICL to specialized data
 - Practical training pipeline
