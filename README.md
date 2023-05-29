@@ -49,6 +49,8 @@ pip install -r L2L_MLPrague23/requirements.txt
   - [Hands-on] prompt engineering (inspired by the training data?)
 
 #### Training Strategies
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaussalgo/L2L_MLPrague23/blob/main/notebooks/existing_ICL_models.ipynb)
+
 - Training strategies + existing models
   - training in explicit fewshot format (QA)
   - Instruction tuning
