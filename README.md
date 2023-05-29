@@ -14,6 +14,8 @@ pip install -r L2L_MLPrague23/requirements.txt
 ## Outline
 
 ### 1. Intro to Transformers
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/gaussalgo/L2L_MLPrague23/blob/main/notebooks/transformers_intro.ipynb)
+
 
 - Architectures
   - Difference to other arch's (attention layer)
@@ -30,6 +32,8 @@ pip install -r L2L_MLPrague23/requirements.txt
   - [Hands-on] Constraining generated output (forcing & disabling)
 
 ### 2. In-context Learning and Few-shot Learning with Transformers
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/gaussalgo/L2L_MLPrague23/blob/main/notebooks/ICL_intro.ipynb)
+
 - Problem definition (usage)
 - Contrast with Supervised ML
 - Zero-shot vs few-shot
@@ -58,6 +62,8 @@ pip install -r L2L_MLPrague23/requirements.txt
   - Explanations of the existing models?
 
 ### 4. Hands-on in Improving Few-shot ICL
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/gaussalgo/L2L_MLPrague23/blob/main/notebooks/hands_on_improving_ICL.ipynb)
+
 - [Hands-on] Customizing Few-shot ICL to specialized data
 - Practical training pipeline
   - Overview of the training pipeline
