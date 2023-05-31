@@ -73,3 +73,10 @@ pip install -r L2L_MLPrague23/requirements.txt
 
 -------
 
+### Models evaluation & competition [Optional]
+
+If you trained your own great few-shot ICL model, it would be a pity not to test it on some unseen reasoning tasks.
+
+See the [competition readme](competition) for how to evaluate the model and if it beats the baseline, how to spread the word!
+
+-------
