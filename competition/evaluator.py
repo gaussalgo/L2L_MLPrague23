@@ -70,7 +70,7 @@ for task_i, SGLUETaskClass in enumerate(selected_tasks_classes):
             label = predicted_sample[1]
             # prediction:
             inputs = tokenizer(input_prompt, return_tensors="pt")
-            prediction_ids = model.generate(**inputs)
+            prediction_ids = model.generate(**inputs.to(model.device))
             prediction = tokenizer.batch_decode(prediction_ids, skip_special_tokens=True)[0]
             # evaluation: ROUGE-L
             evaluation = scorer.score(label, prediction)['rougeL'].recall

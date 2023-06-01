@@ -6,6 +6,7 @@ To make it easy for you, we prepared an evaluator, that will tell you how you st
 You can evaluate your just-created model (or any other HuggingFace Seq2Seq model) as follows:
 
 ```shell
+pip install -q rouge_score
 cd competition
 export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 python evaluator.py --model_name_or_path gaussalgo/mt5-base-priming-QA_en-cs
