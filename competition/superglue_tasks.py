@@ -41,7 +41,7 @@ class SuperGLUETask(abc.ABC):
             from datasets import load_dataset
             self.dataset = load_dataset(*hf_dataset_identifiers)[hf_dataset_split]
             if firstn is not None:
-                self.dataset = self.dataset.select(range(firstn))
+                self.dataset = self.dataset.select(range(min(firstn, len(self.dataset))))
 
     def _maybe_download(self) -> str:
         fname = self.url.split("/")[-1]
