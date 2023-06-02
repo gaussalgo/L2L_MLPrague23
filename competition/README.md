@@ -18,8 +18,8 @@ This will make the evaluation to finish 20-times faster.
 
 ### Your [optional] task:
 
-1. Train an in-context learner that would beat the average ROUGE-L score of our base model
-2. [Upload the model](https://huggingface.co/docs/transformers/model_sharing) to HuggingFace hub, with a short description of how you trained the model
-3. Send us a link to uploaded HF model by June 15th
+1. **Train an in-context learner** that would beat the average ROUGE-L score of our base model: `Model gaussalgo/mt5-base-priming-QA_en-cs overall score:` **0.3626**.
+3. **[Upload the model](https://huggingface.co/docs/transformers/model_sharing)** to HuggingFace hub, with a short description of how you trained the model
+4. **Send us a link** to uploaded HF model **by June 15th** to stefanik[at]gaussalgo[dot]com (or anywhere else ;))
 
 **We will promote all successful solvers to the NLP world by tagging you in a congrats LinkedIn post!**
